@@ -8,6 +8,9 @@ const CommentContainer = styled.div`
   margin: 0 auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  @media all and (max-width: 780px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 const Comment = styled.div`

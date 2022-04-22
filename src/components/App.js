@@ -23,6 +23,9 @@ const Header = styled.section`
 
 const SectionData = styled.section`
   background-color: #228b22;
+  padding: 0 20px;
+  @media all and (max-width: 992px) {
+  }
 `;
 
 function App() {
